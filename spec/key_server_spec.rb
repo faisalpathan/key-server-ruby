@@ -6,7 +6,7 @@ describe KeyServer do
         @key_server = KeyServer.new
     end
 
-    describe '#new' do
+    describe '#initialize' do
         it 'should return a new KeyServer object' do
             expect(@key_server).to be_a KeyServer
         end
