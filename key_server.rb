@@ -58,7 +58,7 @@ class KeyServer
         return nil if @keys[key] == {}
         @keys.delete(key)
         @deleted_keys.add(key)
-        return "'Successfully deleted #{key}."
+        return "Successfully deleted #{key}."
     end
 
     #generate keys based upon the count provided in the function param
